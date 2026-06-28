@@ -27,6 +27,6 @@
 
       [[redirects]]
           from = "/gym"
-          to = "https://oracleapex.com/ords/r/medima..."
+          to = "https://oracleapex.com/ords/r/medimatrics/royal-gym/login"
           status = 200
           force = true
