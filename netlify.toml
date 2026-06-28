@@ -1,3 +1,15 @@
+[[redirects]]
+  from = "/gym/*"
+  to = "https://oracleapex.com/ords/r/medimatrics/royal-gym/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/gym"
+  to = "https://oracleapex.com/ords/r/medimatrics/royal-gym/login"
+  status = 200
+  force = true
+
 [functions]
 
   [functions.emails]
@@ -24,9 +36,3 @@
       included_files = [
         "./emails/**"
       ]
-
-      [[redirects]]
-          from = "/gym"
-          to = "https://oracleapex.com/ords/r/medimatrics/royal-gym/login"
-          status = 200
-          force = true
